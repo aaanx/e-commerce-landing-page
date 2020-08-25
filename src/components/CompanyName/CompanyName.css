@@ -1,0 +1,16 @@
+.BrandName {
+  display: block;
+  width: 160px;
+  height: 38px;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  line-height: 120px;
+  color: #fff;
+  font-weight: 500;
+  font-family: "Roboto";
+  position: absolute;
+  top: 80px;
+  left: 216px;
+  border: 5px solid blue;
+}

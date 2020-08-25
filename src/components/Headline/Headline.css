@@ -1,0 +1,21 @@
+.Headline {
+  display: block;
+  margin: 0;
+  width: 514px;
+  height: 204px;
+  position: absolute;
+  top: 340px;
+  right: 216px;
+  left: 870px;
+  bottom: 508px;
+  border: 5px solid red;
+}
+
+.MainHeadline {
+  margin: 0;
+  font-size: 115px;
+  line-height: 120px;
+  font-weight: 700;
+  font-family: "Roboto";
+  border: 5px solid pink;
+}

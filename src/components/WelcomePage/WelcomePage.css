@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap");
 
-.WelcomePage {
-  width: inherit;
-  height: 1052px;
+.welcome-page {
+  width: 100vw;
+  height: 100vh;
   position: relative;
-  border: 5px solid yellow;
 }

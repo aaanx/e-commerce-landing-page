@@ -2,16 +2,17 @@ import React from "react";
 import CompanyName from "../CompanyName/CompanyName";
 import Menu from "../Menu/Menu";
 import Headline from "../Headline/Headline";
+import DetailsButton from "../DetailsButton/DetailsButton";
 import "./WelcomePage.css";
 
 class WelcomePage extends React.Component {
   render() {
     return (
-      <div className="WelcomePage">
+      <div className="welcome-page">
         <CompanyName />
         <Menu />
         <Headline />
-        <button>Details</button>
+        <DetailsButton />
       </div>
     );
   }

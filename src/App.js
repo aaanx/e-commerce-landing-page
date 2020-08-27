@@ -4,7 +4,7 @@ import WelcomePage from "./components/WelcomePage/WelcomePage";
 
 function App() {
   return (
-    <div className="PageWrapper">
+    <div className="page-wrapper">
       <WelcomePage />
     </div>
   );

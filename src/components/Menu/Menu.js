@@ -6,7 +6,7 @@ import "./Menu.css";
 class Menu extends React.Component {
   render() {
     return (
-      <div className="Menu">
+      <div className="menu">
         <button>
           <img src={SearchIcon} />
           <span>Search</span>

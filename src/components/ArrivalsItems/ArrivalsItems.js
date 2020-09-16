@@ -11,12 +11,14 @@ function ArrivalsItems(props) {
 
   return (
     <div className="arrivals-items">
-      <ArrivalsItem id="1" />
-      <ArrivalsItem id="2" />
-      <ArrivalsItem id="3" />
-      <ArrivalsItem id="4" />
-      <ArrivalsItem id="5" />
-      <ArrivalsItem id="6" />
+      {props.bags.map((bag, i) => (
+        <ArrivalsItem
+          key={i}
+          name={bag.name}
+          price={bag.price}
+          img={bag.image}
+        />
+      ))}
     </div>
   );
 }

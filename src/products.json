@@ -3,74 +3,74 @@
     {
       "name": "Black Genuine Leather Bags",
       "price": "$23.20",
-      "image-url": "./images/bags/bag1.png"
+      "image": "/images/items/bags/bag1.png"
     },
     {
       "name": "Fashion Red Leather Bags",
       "price": "$20.16",
-      "image-url": "./images/bags/bag2.png"
+      "image": "/images/items/bags/bag2.png"
     },
     {
       "name": "Fashion Genuine Leather Bags",
       "price": "$30.14",
-      "image-url": "./images/bags/bag3.png"
+      "image": "/images/items/bags/bag3.png"
     },
     {
       "name": "Simply Leather Bags",
       "price": "$15.20",
-      "image-url": "./images/bags/bag4.png"
+      "image": "/images/items/bags/bag4.png"
     },
     {
       "name": "New Fashion Leather Bags",
       "price": "$25.20",
-      "image-url": "./images/bags/bag5.png"
+      "image": "/images/items/bags/bag5.png"
     },
     {
       "name": "Single Hand Models Bags",
       "price": "$17.60",
-      "image-url": "./images/bags/bag6.png"
+      "image": "/images/items/bags/bag6.png"
     }
   ],
   "watches": [
     {
       "name": "Fashion Genuine Chain Watch",
       "price": "$25.36",
-      "image-url": "./images/watches/watch1.png"
+      "image": "/images/items/watches/watch1.png"
     },
     {
       "name": "Fashion Silver Chain Watch",
       "price": "$35.24",
-      "image-url": "./images/watches/watch2.png"
+      "image": "/images/items/watches/watch2.png"
     },
     {
       "name": "Fashion Chain Watch",
       "price": "$23.12",
-      "image-url": "./images/watches/watch3.png"
+      "image": "/images/items/watches/watch3.png"
     },
     {
       "name": "Fashion Black Chain Watch",
       "price": "$42.32",
-      "image-url": "./images/watches/watch4.png"
+      "image": "/images/items/watches/watch4.png"
     },
     {
       "name": "Fashion Leather Watch",
       "price": "$15.20",
-      "image-url": "./images/watches/watch5.png"
+      "image": "/images/items/watches/watch5.png"
     },
     {
       "name": "Fashion Foreign Watch",
       "price": "$36.12",
-      "image-url": "./images/watches/watch6.png"
+      "image": "/images/watches/watch6.png"
     },
     {
       "name": "Casual Chain Watch",
       "price": "$14.55",
-      "image-url": "./images/watches/watch7.png"
+      "image": "/images/watches/watch7.png"
     },
     {
       "name": "Casual Leather Watch",
       "price": "$26.28",
-      "image-url": "./images/watches/watch8.png"
+      "image": "/images/items/watches/watch8.png"
     }
   ]
 }

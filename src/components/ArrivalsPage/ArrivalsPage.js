@@ -1,7 +1,6 @@
 import React from "react";
 import ArrivalsHeader from "./../ArrivalsHeader/ArrivalsHeader";
 import ArrivalsItems from "./../ArrivalsItems/ArrivalsItems";
-import AddToCartButton from "./../AddToCartButton/AddToCartButton";
 import "./ArrivalsPage.css";
 
 class ArrivalsPage extends React.Component {
@@ -21,14 +20,14 @@ class ArrivalsPage extends React.Component {
     this.setState({
       isLoaded: true,
       products: {
-        bags: [data.bags],
-        watches: [data.watches],
+        bags: data.bags,
+        watches: data.watches,
       },
     });
   }
 
   componentDidUpdate() {
-    console.log(this.state);
+    console.log(this.state.products.bags);
   }
 
   render() {
@@ -36,7 +35,6 @@ class ArrivalsPage extends React.Component {
       <div className="arrivals-page">
         <ArrivalsHeader />
         <ArrivalsItems bags={this.state.products.bags} />
-        <AddToCartButton />
       </div>
     );
   }

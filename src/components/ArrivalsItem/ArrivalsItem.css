@@ -12,6 +12,7 @@
 .arrivals-item:hover {
   filter: drop-shadow(-1.294px 4.83px 25px rgba(221, 223, 224, 0.75));
   background-color: #ffffff;
+  transition: 0.5s;
 }
 
 .arrivals-item-icons {

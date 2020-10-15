@@ -1,0 +1,26 @@
+.showcase-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1105px;
+  height: 66px;
+  border-radius: 33px;
+  filter: drop-shadow(-1.294px 4.83px 25px rgba(153, 153, 153, 0.897));
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.showcase-navbar-item {
+  list-style: none;
+  cursor: pointer;
+  padding: 20px 30px;
+}
+
+.showcase-navbar-item:hover:not(#active) {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
+#active {
+  color: #8c84f9;
+  font-size: 24px;
+}

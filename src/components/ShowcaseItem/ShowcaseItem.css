@@ -1,0 +1,46 @@
+.showcase-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 450px;
+  position: relative;
+  cursor: pointer;
+}
+
+.showcase-item:hover {
+  filter: drop-shadow(-1.294px 4.83px 25px rgba(221, 223, 224, 0.75));
+  background-color: #ffffff;
+  transition: 0.5s;
+}
+
+.showcase-item-img-container {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.showcase-item-img {
+  width: auto;
+  height: 100%;
+}
+
+.showcase-item-name {
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 25px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+  margin: 40px 0 10px 0;
+}
+
+.showcase-item-price {
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-align: center;
+}

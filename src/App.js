@@ -30,6 +30,7 @@ class App extends React.Component {
 
   componentDidUpdate() {
     console.log(this.state.products.bags);
+    console.log(this.state.products.watches);
   }
 
 render(){
@@ -38,7 +39,7 @@ render(){
       <WelcomePage />
       <ArrivalsPage bags={this.state.products.bags} />
       <BrandsPage />
-      {/* <ShowcasePage /> */}
+      <ShowcasePage watches={this.state.products.watches} />
     </div>
   );  
 }

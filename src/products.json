@@ -60,12 +60,12 @@
     {
       "name": "Fashion Foreign Watch",
       "price": "$36.12",
-      "image": "/images/watches/watch6.png"
+      "image": "/images/items/watches/watch6.png"
     },
     {
       "name": "Casual Chain Watch",
       "price": "$14.55",
-      "image": "/images/watches/watch7.png"
+      "image": "/images/items/watches/watch7.png"
     },
     {
       "name": "Casual Leather Watch",

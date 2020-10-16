@@ -4,6 +4,7 @@ import WelcomePage from "./components/WelcomePage/WelcomePage";
 import ArrivalsPage from "./components/ArrivalsPage/ArrivalsPage";
 import BrandsPage from "./components/BrandsPage/BrandsPage";
 import ShowcasePage from "./components/ShowcasePage/ShowcasePage";
+import NewsletterSection from "./components/NewsletterSection/NewsletterSection";
 
 class App extends React.Component {
   constructor(props) {
@@ -40,6 +41,7 @@ render(){
       <ArrivalsPage bags={this.state.products.bags} />
       <BrandsPage />
       <ShowcasePage watches={this.state.products.watches} />
+      <NewsletterSection />
     </div>
   );  
 }

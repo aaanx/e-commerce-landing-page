@@ -1,7 +1,7 @@
 import React from "react";
-import "./ShowcaseNavbar.css";
+import "./ProductCategoriesMenu.css";
 
-class ShowcaseNavbar extends React.Component {
+class ProductCategoriesMenu extends React.Component {
   render() {
     return (
         <ul className="showcase-navbar">
@@ -16,4 +16,4 @@ class ShowcaseNavbar extends React.Component {
   }
 }
 
-export default ShowcaseNavbar;
+export default ProductCategoriesMenu;

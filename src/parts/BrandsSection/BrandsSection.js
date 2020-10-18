@@ -1,5 +1,5 @@
 import React from "react";
-import "./BrandsPage.css";
+import "./BrandsSection.css";
 import IphoneImage from "../../images/iphone.png";
 
 class BrandsPage extends React.Component {

@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import WelcomePage from "./components/WelcomePage/WelcomePage";
-import ArrivalsPage from "./components/ArrivalsPage/ArrivalsPage";
-import BrandsPage from "./components/BrandsPage/BrandsPage";
-import ShowcasePage from "./components/ShowcasePage/ShowcasePage";
-import NewsletterSection from "./components/NewsletterSection/NewsletterSection";
-import FooterSection from "./components/FooterSection/FooterSection";
+import WelcomeSection from "./parts/WelcomeSection/WelcomeSection";
+import ArrivalsSection from "./parts/ArrivalsSection/ArrivalsSection";
+import BrandsSection from "./parts/BrandsSection/BrandsSection";
+import ShowcaseSection from "./parts/ShowcaseSection/ShowcaseSection";
+import NewsletterSection from "./parts/NewsletterSection/NewsletterSection";
+import FooterSection from "./parts/FooterSection/FooterSection";
 
 class App extends React.Component {
   constructor(props) {
@@ -38,10 +38,10 @@ class App extends React.Component {
 render(){
   return (
     <div className="page-wrapper">
-      <WelcomePage />
-      <ArrivalsPage bags={this.state.products.bags} />
-      <BrandsPage />
-      <ShowcasePage watches={this.state.products.watches} />
+      <WelcomeSection />
+      <ArrivalsSection bags={this.state.products.bags} />
+      <BrandsSection />
+      <ShowcaseSection watches={this.state.products.watches} />
       <NewsletterSection />
       <FooterSection />
     </div>

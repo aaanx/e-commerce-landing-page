@@ -12,10 +12,14 @@ class CompanyName extends React.Component {
         color: "#fff",
         fontWeight: "500",
         fontFamily: "Roboto",
+        float: "left",
+        cursor: "pointer",
         position: "absolute",
-        top: "80px",
-        left: "216px"
+        top: "43px",
+        left: "220px"
     }
+
+    //  color: #fbf934;
 
     return <h1 className="company-name" style={CompanyNameStyles}>Big Shop</h1>;
   }

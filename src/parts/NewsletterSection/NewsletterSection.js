@@ -9,7 +9,10 @@ function NewsletterSection() {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        justifyContent: "center"
+        justifyContent: "center",
+        zIndex: "1",
+        position: "relative",
+        top: "-60px"
     }
 
     const HeaderStyles = {

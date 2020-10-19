@@ -21,7 +21,8 @@ class DetailsButton extends React.Component {
         right: "560px",
         display: "flex",
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
+        cursor: "pointer"
     }
 
     const DetailsButtonTextStyles = {

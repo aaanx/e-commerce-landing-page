@@ -25,6 +25,7 @@ class WelcomeMenu extends React.Component {
 
     const MenuButtonStyles = {
       border: "none",
+      outline: "none",
       backgroundColor: "transparent",
       borderRadius: "inherit",
       width: "50%",
@@ -37,19 +38,25 @@ class WelcomeMenu extends React.Component {
       alignItems: "center"
     }
 
-    const MenuButtonTextStyles = {
-      margin: "0 30px"
+    const SearchIconStyles = {
+      marginRight:"20px",
+      transform: "scale(1.5)"
+    }
+
+    const ArrowDownIconStyles = {
+      marginLeft: "20px",
+      transform: "scale(1.1)"
     }
 
     return (
       <div className="menu" style={MenuStyles}>
         <button className="menu-search-btn" style={MenuButtonStyles}>
-          <img src={SearchIcon} />
-          <span className="menu-btn-text" style={MenuButtonTextStyles}>Search</span>
+        <img src={SearchIcon} style={SearchIconStyles} />
+          <span className="menu-btn-text">Search</span>
         </button>
         <button className="menu-collection-btn" style={MenuButtonStyles}>
           <span className="menu-btn-text">Collection</span>
-          <img src={ArrowDownIcon} />
+          <img src={ArrowDownIcon} style={ArrowDownIconStyles}  />
         </button>
       </div>
     );

@@ -1,11 +1,13 @@
 .footer-section {
-  height: 400px;
+  height: 350px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   position: relative;
+  bottom: 0;
+  left: 0;
 }
 
 .footer-section-title {
@@ -14,7 +16,8 @@
   color: #222222;
   font-weight: 500;
   font-family: "Roboto";
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  cursor: pointer;
 }
 
 .footer-section-menu {
@@ -34,10 +37,17 @@
 
 .footer-section-menu-item {
   margin: 0 20px;
+  cursor: pointer;
+}
+
+.footer-section-menu-item:hover,
+.footer-section-social-icon:hover {
+  transform: scale(1.2);
 }
 
 .footer-section-social-icon {
   margin: 0 20px;
+  cursor: pointer;
 }
 
 .footer-section-copyright {

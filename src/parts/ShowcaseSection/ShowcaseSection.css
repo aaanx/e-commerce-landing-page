@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap");
 
 .showcase-page {
-  height: 1325px;
+  height: 1380px;
   margin: 0 110px;
   position: relative;
   background-color: #fff;
@@ -10,4 +10,5 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  z-index: 100;
 }

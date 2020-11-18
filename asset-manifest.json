@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/e-commerce-landing-page/static/css/main.ff3dda52.chunk.css",
-    "main.js": "/e-commerce-landing-page/static/js/main.97cad3c1.chunk.js",
-    "main.js.map": "/e-commerce-landing-page/static/js/main.97cad3c1.chunk.js.map",
+    "main.css": "/e-commerce-landing-page/static/css/main.54c63352.chunk.css",
+    "main.js": "/e-commerce-landing-page/static/js/main.887ef872.chunk.js",
+    "main.js.map": "/e-commerce-landing-page/static/js/main.887ef872.chunk.js.map",
     "runtime-main.js": "/e-commerce-landing-page/static/js/runtime-main.f12673b9.js",
     "runtime-main.js.map": "/e-commerce-landing-page/static/js/runtime-main.f12673b9.js.map",
-    "static/js/2.789fecd6.chunk.js": "/e-commerce-landing-page/static/js/2.789fecd6.chunk.js",
-    "static/js/2.789fecd6.chunk.js.map": "/e-commerce-landing-page/static/js/2.789fecd6.chunk.js.map",
+    "static/js/2.57a9af7f.chunk.js": "/e-commerce-landing-page/static/js/2.57a9af7f.chunk.js",
+    "static/js/2.57a9af7f.chunk.js.map": "/e-commerce-landing-page/static/js/2.57a9af7f.chunk.js.map",
     "index.html": "/e-commerce-landing-page/index.html",
-    "precache-manifest.35302af74798d7e32c548df02bb68b2e.js": "/e-commerce-landing-page/precache-manifest.35302af74798d7e32c548df02bb68b2e.js",
+    "precache-manifest.64d1e2322584565d8d3c6d26d8e300be.js": "/e-commerce-landing-page/precache-manifest.64d1e2322584565d8d3c6d26d8e300be.js",
     "service-worker.js": "/e-commerce-landing-page/service-worker.js",
-    "static/css/main.ff3dda52.chunk.css.map": "/e-commerce-landing-page/static/css/main.ff3dda52.chunk.css.map",
-    "static/js/2.789fecd6.chunk.js.LICENSE.txt": "/e-commerce-landing-page/static/js/2.789fecd6.chunk.js.LICENSE.txt",
+    "static/css/main.54c63352.chunk.css.map": "/e-commerce-landing-page/static/css/main.54c63352.chunk.css.map",
+    "static/js/2.57a9af7f.chunk.js.LICENSE.txt": "/e-commerce-landing-page/static/js/2.57a9af7f.chunk.js.LICENSE.txt",
     "static/media/arrow_down.svg": "/e-commerce-landing-page/static/media/arrow_down.ab2eb590.svg",
     "static/media/arrow_right.svg": "/e-commerce-landing-page/static/media/arrow_right.80e0e702.svg",
     "static/media/facebook-icon-gradient.svg": "/e-commerce-landing-page/static/media/facebook-icon-gradient.52b5455a.svg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f12673b9.js",
-    "static/js/2.789fecd6.chunk.js",
-    "static/css/main.ff3dda52.chunk.css",
-    "static/js/main.97cad3c1.chunk.js"
+    "static/js/2.57a9af7f.chunk.js",
+    "static/css/main.54c63352.chunk.css",
+    "static/js/main.887ef872.chunk.js"
   ]
 }

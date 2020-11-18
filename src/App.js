@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import products from "./products.json";
 import WelcomeSection from "./parts/WelcomeSection/WelcomeSection";
 import ArrivalsSection from "./parts/ArrivalsSection/ArrivalsSection";
 import BrandsSection from "./parts/BrandsSection/BrandsSection";
@@ -20,12 +21,12 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    var data = require("./products.json");
+    var data = JSON.stringify(products);
     this.setState({
       isLoaded: true,
       products: {
-        bags: data.bags,
-        watches: data.watches,
+        bags: JSON.parse(data).bags,
+        watches: JSON.parse(data).watches,
       },
     });
   }
